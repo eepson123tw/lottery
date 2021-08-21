@@ -1,24 +1,12 @@
-# app
+# lottery
 
-## Project setup
+## 專案為使用docker 及 tailwaindcss 建構
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+使用docker-compose.yml 建構一個統一開發環境
 ```
 
-### Compiles and minifies for production
+### 開發框架 使用 vue3
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+實做一個樂透抽獎機
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
