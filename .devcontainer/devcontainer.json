@@ -9,7 +9,23 @@
 
 
 	// Set *default* container specific settings.json values on container create.
-	"settings": {},
+	"settings": 
+		{
+			"eslint.format.enable": true,
+			"editor.codeActionsOnSave": {
+				"source.fixAll.eslint": true
+			},
+			"eslint.alwaysShowStatus": true,
+			"eslint.validate": [
+				"javascript",
+				"javascriptreact",
+				"typescript",
+				"typescriptreact",
+				"vue",
+			],
+			"vetur.validation.template": false,
+		}
+	,
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
